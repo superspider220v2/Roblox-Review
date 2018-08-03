@@ -1,0 +1,179 @@
+
+/* color
+#272727 - dark
+#30d18b- bright green
+#2c7555 - dark green 
+#EEF0F2 - gray 
+*/
+
+/* ------------------------------body-------------------------------*/
+/* ------------------------------body-------------------------------*/
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    display: block;
+}
+
+#content
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* ------------------------------nav-------------------------------*/
+/* ------------------------------nav-------------------------------*/
+
+
+#nav
+{
+    overflow: hidden;
+    background-color: #272727;
+}   
+
+.menu
+{
+    color: white;
+    text-decoration:inherit; 
+    padding: 21px 20px 20px 20px;
+    display: block;
+    float: left;
+} 
+
+.menu:hover
+{
+    background-color: #30d18b; 
+} 
+
+.logo
+{
+    padding: 16px 16px 9px 16px;
+} 
+
+.logo:hover
+{
+    background: #272727;
+}
+
+/* ---------------------------header image---------------------------*/
+/* ---------------------------header image---------------------------*/
+
+
+#header
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px;
+    background-color: #272727;
+}
+
+/* ---------------------------Content---------------------------*/
+/* ---------------------------Content---------------------------*/
+
+h1,h2
+{
+    color: #2c7555;
+}
+
+p
+{
+    font-size: 1.2em;
+}
+
+.section
+{
+    clear: left;
+    margin: 50px 0 50px 0;
+    display: block;
+    padding: 0px 20px; 
+}
+    
+.part
+{
+    float: left;
+    max-width: 33%;
+    text-align: center;
+}
+
+.sec
+{
+    padding: 0 50px 30px 50px;
+}
+    
+.textWimg
+{
+    min-height: 370px;
+}
+
+.textImg
+{
+    float: left;
+    margin:  3px 20px 0 0 ;
+    padding: 0;
+}
+
+.text
+{
+    overflow: auto;
+}
+    
+.galleryImg
+{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.galImg
+{
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-top: .7em;
+}
+
+.galImg img
+{
+    width: 96%;
+}
+
+.bottom
+{
+    margin-bottom: 50px;
+}
+
+/*--------------------------------------------------------*/
+/*--------------------------Footer------------------------*/
+/*--------------------------------------------------------*/
+
+
+#footer
+{
+    padding: 10px;
+    clear: left;
+    background-color: #272727;
+    color: white;
+    min-height: 20px;
+}
+
+#footer p
+{
+    text-align: center;
+    font-size: 1em;
+}
+    
+#footer a
+{
+    color: white;
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+}
+
+#footer a:hover
+{
+    color: #30d18b;
+}
